@@ -26,6 +26,5 @@ public class Context {
                         throw new IllegalAccessException();
                 }
                 return value.booleanValue();
-
         }
 }

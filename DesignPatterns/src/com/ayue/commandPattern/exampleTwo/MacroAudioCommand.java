@@ -10,6 +10,7 @@ import java.util.List;
  * 2019年3月4日
  *
  * @author ayue
+ *         具体宏命令类
  */
 public class MacroAudioCommand implements MacroCommand {
         private List<Command> commandList = new ArrayList<Command>();

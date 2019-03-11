@@ -16,8 +16,8 @@ public class Client {
                 //主板去得到CPU处理过后的数据，分别把数据交给显卡和声卡，去显示出视频和发出声音。
 
                 //创建调停者--主板
-                MainBoard mediator = new MainBoard();
                 //创建同事类
+                MainBoard mediator = new MainBoard();
                 CDDriver cd = new CDDriver(mediator);
                 CPU cpu = new CPU(mediator);
                 VideoCard vc = new VideoCard(mediator);

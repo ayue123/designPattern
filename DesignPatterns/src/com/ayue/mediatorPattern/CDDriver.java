@@ -24,7 +24,7 @@ public class CDDriver extends Colleague {
         //读取光盘
         public void readCD() {
                 this.data = "One piece,海贼王";
-                //通知主板，自己状态改变了
                 getMediator().changed(this);
+                //通知主板，自己状态改变了
         }
 }
