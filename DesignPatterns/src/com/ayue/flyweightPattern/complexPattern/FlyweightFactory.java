@@ -10,9 +10,7 @@ import java.util.Map;
 /**
  * 2019年3月1日
  *
- * @author ayue
- *         享元工厂
- *         两个方法分别提供单纯享元对象和复合享元对象
+ * @author ayue 享元工厂 两个方法分别提供单纯享元对象和复合享元对象
  */
 public class FlyweightFactory {
         private Map<Character, Flyweight> files = new HashMap<Character, Flyweight>();
@@ -32,7 +30,5 @@ public class FlyweightFactory {
                         files.put(state, fly);
                 }
                 return fly;
-
         }
-
 }

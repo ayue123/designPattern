@@ -9,7 +9,6 @@ package com.ayue.abstractFactoryPattern;
  * @author ayue
  */
 public interface AbstractFactory {
-
         public Cpu creatCpu();
 
         public Mainboard creatMainboard();

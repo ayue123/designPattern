@@ -9,10 +9,8 @@ package com.ayue.proxyPattern;
  * @author ayue
  */
 public class RealObject extends AbstractObject {
-
         @Override
         public void operation() {
                 System.out.println("操作");
         }
-
 }

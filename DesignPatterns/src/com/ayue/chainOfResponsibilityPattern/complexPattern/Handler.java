@@ -9,7 +9,7 @@ package com.ayue.chainOfResponsibilityPattern.complexPattern;
  * @author ayue
  */
 public abstract class Handler {
-        //持有下一个处理对象请求
+        // 持有下一个处理对象请求
         protected Handler successor = null;
 
         public Handler getSuccessor() {
@@ -20,7 +20,6 @@ public abstract class Handler {
                 this.successor = sucessor;
         }
 
-        //处理请求
+        // 处理请求
         public abstract String handleFeeRequest(String user, double fee);
-
 }

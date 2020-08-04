@@ -6,8 +6,7 @@ package com.ayue.interpreterPattern;
 /**
  * 2019年3月4日
  *
- * @author ayue
- *         代表逻辑与操作，表示两个布尔表达式通过逻辑与操作给出一个新的布尔表达式的操作
+ * @author ayue 代表逻辑与操作，表示两个布尔表达式通过逻辑与操作给出一个新的布尔表达式的操作
  */
 public class And extends Expression {
 
@@ -38,7 +37,7 @@ public class And extends Expression {
 
         @Override
         public String toString() {
-                return "(" + left.toString() + "AND" + right.toString() + ")";
+                return "(" + left.toString() + " AND " + right.toString() + ")";
         }
 
 }

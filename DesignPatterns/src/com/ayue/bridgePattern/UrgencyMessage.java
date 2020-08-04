@@ -9,11 +9,11 @@ package com.ayue.bridgePattern;
  * @author ayue
  */
 public class UrgencyMessage extends AbstractMessage {
-
         public UrgencyMessage(MessageImplementor impl) {
                 super(impl);
         }
 
+        // 加急消息添加其他处理
         @Override
         public void sendMessage(String message, String toUser) {
                 message = "加急" + message;
@@ -24,5 +24,4 @@ public class UrgencyMessage extends AbstractMessage {
         public Object watch(String messageId) {
                 return null;
         }
-
 }

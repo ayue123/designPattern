@@ -9,7 +9,6 @@ package com.ayue.abstractFactoryPattern;
  * @author ayue
  */
 public class ComputerEngineer {
-
         public void assembly(AbstractFactory af) {
                 Cpu cpu = af.creatCpu();
                 Mainboard mainboard = af.creatMainboard();

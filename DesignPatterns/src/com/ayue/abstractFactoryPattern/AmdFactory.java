@@ -9,7 +9,6 @@ package com.ayue.abstractFactoryPattern;
  * @author ayue
  */
 public class AmdFactory implements AbstractFactory {
-
         @Override
         public Cpu creatCpu() {
                 return new AmdCpu();
@@ -19,5 +18,4 @@ public class AmdFactory implements AbstractFactory {
         public Mainboard creatMainboard() {
                 return new AmdMainBoard();
         }
-
 }

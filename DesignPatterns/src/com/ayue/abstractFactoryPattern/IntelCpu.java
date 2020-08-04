@@ -9,10 +9,8 @@ package com.ayue.abstractFactoryPattern;
  * @author ayue
  */
 public class IntelCpu implements Cpu {
-
         @Override
         public void calculator() {
                 System.out.println("intelCpu");
         }
-
 }

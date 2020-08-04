@@ -6,8 +6,7 @@ package com.ayue.iteratorPattern.blackIterator;
 /**
  * 2019年3月4日
  *
- * @author ayue
- *         具体聚集对象类
+ * @author ayue 具体聚集对象类
  */
 public class ConcreteAggregrate extends Aggregate {
         private Object[] objArray = null;
@@ -21,11 +20,11 @@ public class ConcreteAggregrate extends Aggregate {
                 return new ConcreteIterator();
         }
 
-        //内部成员类，具体迭代子类
+        // 内部成员类，具体迭代子类
         private class ConcreteIterator implements Iterator {
-                //内部索引
+                // 内部索引
                 private int index = 0;
-                //记录当前聚集对象的大小
+                // 记录当前聚集对象的大小
                 private int size = 0;
 
                 public ConcreteIterator() {

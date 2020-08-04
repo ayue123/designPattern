@@ -9,7 +9,6 @@ package com.ayue.prototypePattern;
  * @author ayue
  */
 public class ConcretePrototypeTwo implements Prototype {
-
         private String name;
 
         public Prototype clone() {
@@ -31,5 +30,4 @@ public class ConcretePrototypeTwo implements Prototype {
         public void setName(String name) {
                 this.name = name;
         }
-
 }

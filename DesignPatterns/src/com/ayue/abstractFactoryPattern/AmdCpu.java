@@ -9,11 +9,9 @@ package com.ayue.abstractFactoryPattern;
  * @author ayue
  */
 public class AmdCpu implements Cpu {
-
         @Override
         public void calculator() {
                 System.out.println("AmdCpu");
 
         }
-
 }

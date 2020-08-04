@@ -6,8 +6,7 @@ package com.ayue.interpreterPattern;
 /**
  * 2019年3月4日
  *
- * @author ayue
- *         代表逻辑“非”操作的Not类，代表由一个布尔表达式通过逻辑“非”操作给出一个新的布尔表达式的操作
+ * @author ayue 代表逻辑“非”操作的Not类，代表由一个布尔表达式通过逻辑“非”操作给出一个新的布尔表达式的操作
  */
 public class Not extends Expression {
         private Expression exp;

@@ -10,9 +10,8 @@ package com.ayue.factoryMethodPattern;
  */
 public class SenderTest {
         public static void main(String[] args) {
-
                 SenderFactory factory = new SenderFactory();
-                //通过调用不同的方法来实现不同对象的创建
+                // 通过调用不同的方法来实现不同对象的创建
                 Sender sender1 = factory.produceMail();
                 sender1.send();
                 Sender sender2 = factory.produceSms();

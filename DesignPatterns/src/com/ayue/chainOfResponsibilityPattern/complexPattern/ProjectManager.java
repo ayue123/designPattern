@@ -9,7 +9,6 @@ package com.ayue.chainOfResponsibilityPattern.complexPattern;
  * @author ayue
  */
 public class ProjectManager extends Handler {
-
         @Override
         public String handleFeeRequest(String user, double fee) {
                 String str = "";
@@ -23,10 +22,8 @@ public class ProjectManager extends Handler {
                         if (getSuccessor() != null) {
                                 return getSuccessor().handleFeeRequest(user, fee);
                         }
-
                 }
 
                 return str;
         }
-
 }

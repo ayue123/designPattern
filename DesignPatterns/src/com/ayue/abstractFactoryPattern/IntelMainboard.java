@@ -9,10 +9,8 @@ package com.ayue.abstractFactoryPattern;
  * @author ayue
  */
 public class IntelMainboard implements Mainboard {
-
         @Override
         public void calculator() {
                 System.out.println("intelMainboard");
         }
-
 }

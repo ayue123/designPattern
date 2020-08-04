@@ -9,7 +9,6 @@ package com.ayue.factoryMethodPattern;
  * @author ayue
  */
 public class SenderFactory {
-
         public Sender produceMail() {
                 return new MailSender();
         }

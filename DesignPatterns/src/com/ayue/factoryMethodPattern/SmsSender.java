@@ -9,10 +9,8 @@ package com.ayue.factoryMethodPattern;
  * @author ayue
  */
 public class SmsSender implements Sender {
-
         @Override
         public void send() {
                 System.out.println("smsSewnder");
         }
-
 }

@@ -13,11 +13,10 @@ public class ProxyObject extends AbstractObject {
 
         @Override
         public void operation() {
-                //调用对象之前做些相关操作
+                // 调用对象之前做些相关操作
                 System.out.println("before");
                 realObject.operation();
-                //调用对象之后做些相关操作
+                // 调用对象之后做些相关操作
                 System.out.println("after");
         }
-
 }
